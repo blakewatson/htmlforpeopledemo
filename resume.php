@@ -9,13 +9,7 @@
 
 <body>
 	<header>
-		<nav>
-            <a href="/index.html">Home</a>
-			<a href="/blog/">Blog</a>
-            <a href="/about.html">About</a>
-            <a href="/resume.html" aria-current="page">Resume</a>
-            <a href="/fun.html">Fun!</a>
-		</nav>
+		<?php include $_SERVER['DOCUMENT_ROOT'] . "/includes/nav.php" ?>
 
 		<h1>Blake Watson</h1>
 		<p><em>Experienced Frontend Engineer</em></p>

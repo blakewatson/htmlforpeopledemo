@@ -11,13 +11,7 @@
 
 <body>
     <header>
-        <nav>
-            <a href="/index.html">Home</a>
-			<a href="/blog/">Blog</a>
-            <a href="/about.html">About</a>
-            <a href="/resume.html">Resume</a>
-            <a href="/fun.html" aria-current="page">Fun!</a>
-        </nav>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . "/includes/nav.php" ?>
 
         <h1>Fun!</h1>
     </header>

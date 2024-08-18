@@ -9,13 +9,7 @@
 
 <body>
     <header>
-        <nav>
-            <a href="/index.html">Home</a>
-            <a href="/blog/">Blog</a>
-            <a href="/about.html">About</a>
-            <a href="/resume.html">Resume</a>
-            <a href="/fun.html">Fun!</a>
-        </nav>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . "/includes/nav.php" ?>
 
         <h1>The time I built a website for aliens</h1>
         <p><time datetime="2024-04-15">April 15, 2024</time></p>
