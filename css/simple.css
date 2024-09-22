@@ -289,7 +289,8 @@ header > nav a:visited {
 
 header > nav a:hover,
 header > nav a.current,
-header > nav a[aria-current="page"] {
+header > nav a[aria-current="page"],
+header > nav a[aria-current="true"] {
   border-color: var(--accent);
   color: var(--accent);
   cursor: pointer;
@@ -341,7 +342,9 @@ article, fieldset, dialog {
 }
 
 article h2:first-child,
-section h2:first-child {
+section h2:first-child,
+article h3:first-child,
+section h3:first-child {
   margin-top: 1rem;
 }
 
@@ -357,6 +360,10 @@ section + section,
 section:first-child {
   border-top: 0;
   padding-top: 0;
+}
+
+section + section {
+  margin-top: 0;
 }
 
 section:last-child {
@@ -396,6 +403,7 @@ table {
 
 figure > table {
   width: max-content;
+  margin: 0;
 }
 
 td,
